@@ -56,4 +56,4 @@ Password : admin
 Terima kasih untuk kontribusinya di proyek percobaan ini
 
 ## License
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+The WebApps LIR is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
