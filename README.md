@@ -31,6 +31,7 @@ Email : admin@example.com
 Password : admin
 
 ## Fitur
+
 ### Front / Depan
 - Home (Halaman home,menampilkan artikel,pengumuman terbaru) 
 - Artikel & Show + pencarian artikel  
