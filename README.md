@@ -1,7 +1,7 @@
 <p align="center"><img src="public\favicons\wlogo_tr_128.png" width="128" alt="Laravel Logo"></p>
 
 ## Tentang LIR
-Web Aplikasi Laporan Ibadah Raya (LIR) adalah proyek percobaan dan pembelajaran PHP dengan framework Laravel, referensi untuk <a href="https://laravel.com">LARAVEL</a> bisa dibaca di file README_LARAVEL.md
+Aplikasi Web Laporan Ibadah Raya (LIR) adalah proyek percobaan dan pembelajaran PHP dengan framework Laravel, referensi untuk <a href="https://laravel.com">LARAVEL</a> bisa dibaca di file README_LARAVEL.md
 
 ## Kebutuhan alat / perangkat lunak (Tools and Requirement)
 - Composer
@@ -56,4 +56,4 @@ Password : admin
 Terima kasih untuk kontribusinya di proyek percobaan ini
 
 ## License
-The WebApps LIR is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Aplikasi web LIR is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
