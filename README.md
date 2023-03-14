@@ -1,13 +1,52 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="public\favicons\wlogo_tr_128.png" width="128" alt="Laravel Logo"></a></p>
+<p align="center"><img src="public\favicons\wlogo_tr_128.png" width="128" alt="Laravel Logo"></p>
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## Tentang LIR
 
-## About Laravel
+Web Aplikasi Laporan Ibadah Raya (LIR) adalah proyek percobaan dan pembelajaran PHP dengan framework Laravel, referensi untuk <a href="https://laravel.com">LARAVEL</a> bisa dibaca di file README_LARAVEL.md
+
+## Kebutuhan alat / perangkat lunak (Tools and Requirement)
+- Composer
+- MariaDB/MySql, Php, Apache (Xampp)
+- 
+
+## Unduh / Donwload / Clone
+- download zip <a href="https://github.com/xrwnz/lir/archive/master.zip">disini</a> 
+- atau clone : git clone https://github.com/xrwnz/lir
+
+## Instalasi / Setup
+- buka direktori project di terminal anda.
+- ketikan command : cp .env.example .env (copy paste file .env.example)
+- buat database 
+
+Lalu ketik command dibawah ini
+- composer install
+- php artisan optimize:clear 
+- php artisan key:generate (generate app key)
+- php artisan migrate (migrasi database)
+- php artisan db:seed 
+
+## Login
+Email : rahmat@example.com
+Password : password
+
+## Fitur
+# Front / Depan
+- Home (Halaman home,menampilkan artikel,pengumuman terbaru) 
+- Artikel & Show + pencarian artikel  
+- Pengumuman & Show
+
+# admin
+- Autentikasi (menggunakan fortify)
+- Halaman Dashboard
+- Manage User (CRUD)
+- Manage Artikel (CRUD)
+- Manage Agenda (CRUD)
+- Manage Pengumuman (CRUD)
+- Manage Kategori Artikel (CRUD)
+
+## Author
+- Rahmat Hidayatullah
+
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
