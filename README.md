@@ -1,7 +1,7 @@
 <p align="center"><img src="public\favicons\wlogo_tr_128.png" width="128" alt="Laravel Logo"></p>
 
 ## Tentang LIR
-Aplikasi Web Laporan Ibadah Raya (LIR) adalah proyek percobaan dan pembelajaran PHP dengan framework Laravel, referensi untuk <a href="https://laravel.com">LARAVEL</a> bisa dibaca di file README_LARAVEL.md
+Aplikasi Web Laporan Ibadah Raya (LIR) adalah proyek percobaan dan pembelajaran PHP dengan framework Laravel, referensi untuk <a href="https://laravel.com">LARAVEL</a> bisa dibaca di file <a  href="README_LARAVEL.md">README_LARAVEL.md</a>
 
 ## Kebutuhan alat / perangkat lunak (Tools and Requirement)
 - Composer
@@ -32,9 +32,10 @@ Password : admin
 
 ## Fitur
 ### Front / Depan
-- Home (Halaman home,menampilkan artikel,pengumuman terbaru) 
-- Artikel & Show + pencarian artikel  
-- Pengumuman & Show
+- Home (Halaman home, User profiling belum diimplentasikan) 
+- Register user baru
+- Login
+- Logout
 
 ### admin
 - Autentikasi (menggunakan laravel ui/sanctum)
