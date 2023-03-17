@@ -29,12 +29,12 @@ DB_DATABASE=lir
 DB_USERNAME=root  
 DB_PASSWORD=  
 
-Lalu ketik command dibawah ini
-- composer install
-- php artisan optimize:clear 
-- php artisan key:generate (generate app key)
-- php artisan migrate (migrasi database)
-- php artisan db:seed 
+**Lalu ketik command dibawah ini**
+- _composer install_
+- _php artisan optimize:clear_ 
+- _php artisan key:generate_ (untuk generate app key)
+- _php artisan migrate_ (untuk membuat struktur database)
+- _php artisan db:seed_
 
 ## Login
 Email : admin@example.com
