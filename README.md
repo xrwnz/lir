@@ -36,9 +36,8 @@ DB_PASSWORD=
 - _php artisan migrate_ (untuk membuat struktur database)
 - _php artisan db:seed_
 
-## Login
-Email : admin@example.com
-Password : admin
+## Start to use
+Untuk mendapatkan akses login pertama kali dan memulai penggunaan Aplikasi web LIR, bisa dengan registrasi user terlebih dahulu
 
 ## Fitur
 ### Front / Depan
