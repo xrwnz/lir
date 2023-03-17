@@ -1,9 +1,9 @@
 <p align="center"><img src="public\favicons\wlogo_tr_128.png" width="128" alt="Laravel Logo"></p>
 
-## Tentang LIR
+## Tentang / About LIR
 Aplikasi Web Laporan Ibadah Raya (LIR) adalah proyek percobaan dan pembelajaran PHP dengan framework Laravel, referensi untuk <a href="https://laravel.com">LARAVEL</a> bisa dibaca di file <a  href="README_LARAVEL.md">README_LARAVEL.md</a>
 
-## Kebutuhan alat / perangkat lunak (Tools and Requirement)
+## Kebutuhan perangkat lunak / Tools and Requirement
 - **[Composer](https://getcomposer.org/)**
 - **[MariaDB/MySql, Php, Apache (Xampp)](https://www.apachefriends.org/download.html)**
 - **[AdminLTE Template for laravel by jeroennoten](https://github.com/jeroennoten/Laravel-AdminLTE)**
@@ -22,18 +22,12 @@ Aplikasi Web Laporan Ibadah Raya (LIR) adalah proyek percobaan dan pembelajaran 
   (copy paste file ".env.example" jadi file ".env")
 - Buka dan Edit file ".env" tersebut, lalu setting configurasi koneksi database pada bagian berikut :
 
-DB_CONNECTION=mysql
-
-DB_HOST=127.0.0.1
-
-DB_PORT=3306
-
-DB_DATABASE=lir
-
-DB_USERNAME=root
-
-DB_PASSWORD=
-
+DB_CONNECTION=mysql  
+DB_HOST=127.0.0.1  
+DB_PORT=3306  
+DB_DATABASE=lir  
+DB_USERNAME=root  
+DB_PASSWORD=  
 
 Lalu ketik command dibawah ini
 - composer install
