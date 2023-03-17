@@ -71,7 +71,7 @@ Untuk mendapatkan akses login pertama kali dan memulai penggunaan Aplikasi web L
 Terima kasih untuk kontribusinya di proyek percobaan ini
 
 ## Catatan / Note
-Aplikasi web [LIR] ini sudah bisa berfungsi secara mendasar untuk input pelaporan ibadah raya sebagaimana mestinya, meliputi fitur sebagai berikut :
+Aplikasi web LIR ini sudah bisa berfungsi secara mendasar untuk input pelaporan ibadah raya sebagaimana mestinya, meliputi fitur sebagai berikut :
 - Registrasi User baru untuk dapat membuat laporan ibadah raya. User dalam hal ini adalah Gembala IR
 - Home page berisi Daftar / List Laporan yang pernah dibuat berfungsi juga sebagai halaman untuk operasi dasar CRUD (Create, Retrieve, Update, dan Delete)
 - User / Gembala hanya dapat mengakses data laporan yang dibuatnya
