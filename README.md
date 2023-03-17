@@ -53,6 +53,9 @@ Untuk mendapatkan akses login pertama kali dan memulai penggunaan Aplikasi web L
 - Dialog modal untuk membuat LIR baru
 - Dialog modal untuk mengubah LIR yang pernah diinput
 - Dialog modal untuk menghapus LIR
+- Filter Data LIR yang pernah diinput
+- Dialog untuk mencetak / Print data LIR
+- Dialog untuk mengekspor data LIR ke format yang umum dipakai
 
 ## Author
 - xrwnz
