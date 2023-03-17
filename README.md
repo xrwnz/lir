@@ -50,8 +50,10 @@ Password : admin
 
 ## Premium Partners
 - **[Egi](https://egi.co.id/)**
+- **[Dani](https://dani.co.id/)**
 - **[Hanhan](https://hanhan.co.id)**
 - **[Julianto](https://julianto.co.id)**
+- **[Ivan](https://ivan.co.id/)**
 
 ## Kontribusi / Contributing
 Terima kasih untuk kontribusinya di proyek percobaan ini
