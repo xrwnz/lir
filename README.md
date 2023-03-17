@@ -23,11 +23,17 @@ Aplikasi Web Laporan Ibadah Raya (LIR) adalah proyek percobaan dan pembelajaran 
 - Buka dan Edit file ".env" tersebut, lalu setting configurasi koneksi database pada bagian berikut :
 
 DB_CONNECTION=mysql
+
 DB_HOST=127.0.0.1
+
 DB_PORT=3306
+
 DB_DATABASE=lir
+
 DB_USERNAME=root
+
 DB_PASSWORD=
+
 
 Lalu ketik command dibawah ini
 - composer install
