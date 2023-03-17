@@ -4,9 +4,10 @@
 Aplikasi Web Laporan Ibadah Raya (LIR) adalah proyek percobaan dan pembelajaran PHP dengan framework Laravel, referensi untuk <a href="https://laravel.com">LARAVEL</a> bisa dibaca di file <a  href="README_LARAVEL.md">README_LARAVEL.md</a>
 
 ## Kebutuhan alat / perangkat lunak (Tools and Requirement)
-- Composer
-- MariaDB/MySql, Php, Apache (Xampp)
-- VS Code
+- **[Composer](https://getcomposer.org/)**
+- **[MariaDB/MySql, Php, Apache (Xampp)](https://www.apachefriends.org/download.html)**
+- **[AdminLTE Template for laravel by jeroennoten](https://github.com/jeroennoten/Laravel-AdminLTE)**
+- **[VS Code](https://code.visualstudio.com/)**
 
 
 ## Unduh / Donwload / Clone
@@ -14,10 +15,18 @@ Aplikasi Web Laporan Ibadah Raya (LIR) adalah proyek percobaan dan pembelajaran 
 - atau clone : git clone https://github.com/xrwnz/lir
 
 ## Instalasi / Setup
-- buka direktori project di terminal anda.
+- buka direktori project di terminal (cmd) anda.
 - ketikan command : 
-  copy .env.example .env (copy paste file ".env.example" jadi file ".env")
-- setting configurasi database dalam file ".env" tersebut
+  **copy .env.example .env**
+  (copy paste file ".env.example" jadi file ".env")
+- Buka dan Edit file ".env" tersebut, lalu setting configurasi koneksi database pada bagian berikut :
+
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=lir
+DB_USERNAME=root
+DB_PASSWORD=
 
 Lalu ketik command dibawah ini
 - composer install
@@ -63,7 +72,7 @@ Aplikasi web [LIR] ini sudah bisa berfungsi secara mendasar untuk input pelapora
 - Registrasi User baru untuk dapat membuat laporan ibadah raya. User dalam hal ini adalah Gembala IR
 - Home page berisi Daftar / List Laporan yang pernah dibuat berfungsi juga sebagai halaman untuk operasi dasar CRUD (Create, Retrieve, Update, dan Delete)
 - User / Gembala hanya dapat mengakses data laporan yang dibuatnya
-- User / Gembala juga bisa meng-ekspor data Laporan ke dalam format lain yang secara umum dipakai seperti
+- User / Gembala juga bisa mencetak atau meng-ekspor data Laporan ke dalam format lain yang secara umum dipakai seperti : CSV (Comma Separated Values), Excel (XLSX), dan PDF (Portable Document Format).
 
  Sekalipun aplikasi web sudah dapat dioperasikan, namun masih banyak fitur yang belum tersedia (dapat di-imporve dikemudian hari), seperti  :
 - Landing Page
