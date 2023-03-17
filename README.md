@@ -65,7 +65,7 @@ Aplikasi web [LIR] ini sudah bisa berfungsi secara mendasar untuk input pelapora
 - User / Gembala hanya dapat mengakses data laporan yang dibuatnya
 - User / Gembala juga bisa meng-ekspor data Laporan ke dalam format lain yang secara umum dipakai seperti
 
- tapi masih banyak fitur yang belum tersedia, seperti [belum tersedianya] beberapa hal sebagai berikut :
+ Sekalipun aplikasi web sudah dapat dioperasikan, namun masih banyak fitur yang belum tersedia (dapat di-imporve dikemudian hari), seperti  :
 - Landing Page
 - User Profile page
 - Login Akses Administrator untuk mengelola input laporan Evaluasi IR dari semua Gembala IR
