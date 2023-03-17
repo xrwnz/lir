@@ -18,6 +18,7 @@ Aplikasi Web Laporan Ibadah Raya (LIR) adalah proyek percobaan dan pembelajaran 
 - buka direktori project di terminal (cmd) anda.
 - ketikan command : 
   **copy .env.example .env**
+  
   (copy paste file ".env.example" jadi file ".env")
 - Buka dan Edit file ".env" tersebut, lalu setting configurasi koneksi database pada bagian berikut :
 
